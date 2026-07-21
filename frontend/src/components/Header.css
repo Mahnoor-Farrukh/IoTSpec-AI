@@ -1,0 +1,95 @@
+.header{
+
+    height:72px;
+
+    padding:0 34px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    border-bottom:1px solid #E5E7EB;
+
+}
+
+/* Brand */
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.brand-icon{
+
+    width:30px;
+
+    height:30px;
+
+    color:#2563EB;
+
+    flex-shrink:0;
+
+}
+
+.brand-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.brand-text h1{
+
+    margin:0;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    letter-spacing:-.5px;
+
+}
+
+.brand-text p{
+
+    margin-top:2px;
+
+    font-size:13px;
+
+    color:#6B7280;
+
+    font-weight:500;
+
+}
+
+/* Status */
+
+.status{
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    border:1px solid #E5E7EB;
+
+    background:white;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    color:#374151;
+
+}

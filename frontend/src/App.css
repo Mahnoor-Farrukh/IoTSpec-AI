@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+
+    min-height:100%;
+    width:100%;
+
+    background:#F8FAFC;
+
+    font-family:Inter,"Segoe UI",sans-serif;
+
+}
+
+.app{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.workspace{
+
+    flex:1;
+
+    display:grid;
+
+    grid-template-columns:42% 58%;
+
+    gap:24px;
+
+    align-items:start;
+
+    padding:24px;
+
+}
+
+@media(max-width:1000px){
+
+.workspace{
+
+    grid-template-columns:1fr;
+
+}
+
+}

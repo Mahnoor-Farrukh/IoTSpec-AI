@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.panel-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:25px;
+
+}
+
+.panel-header span{
+
+font-size:14px;
+
+color:#6b7280;
+
+}
+
+.status{
+
+padding:8px 14px;
+
+border-radius:20px;
+
+background:#e7f8ee;
+
+color:#2e8b57;
+
+font-size:13px;
+
+font-weight:600;
+
+}
+
+.online{
+
+background:#dff8ef;
+
+}
